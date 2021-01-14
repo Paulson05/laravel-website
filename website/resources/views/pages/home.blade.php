@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h2>home</h2>
-</body>
-</html>
+
+@extends('layout')
+
+@section('content')
+<div class="card-body text-center" style="margin-top:200px !important">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="/pages/contact" class="btn btn-primary">Contact Us</a>
+  </div>
+</div>
+<div class="container">
+  
+@endsection
