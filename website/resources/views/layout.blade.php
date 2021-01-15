@@ -11,41 +11,23 @@
        
     </head>
     <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <div class= "container">
-
-      <ul class="nav  justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/pages/home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/pages/about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/pages/services">Services</a>
-        </li>
-        <li class="nav-item">
-        <li class="nav-item">
-          <a class="nav-link" href="/pages/gallery">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/pages/contact">contact us</a>
-        </li>
-        <li class="nav-item">
-        
-      </ul>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+      <a class="nav-link active" aria-current="page" href="/pages/home">Home</a>
+      <a class="nav-link" href="/pages/about">About</a>
+      <a class="nav-link" href="/pages/services">Services</a>
+      <a class="nav-link" href="/pages/gallery">Gallery</a>
+      <a class="nav-link" href="/pages/contact">contact us</a>
       </div>
     </div>
   </div>
 </nav>
-
-
       @yield('content')
 
       
