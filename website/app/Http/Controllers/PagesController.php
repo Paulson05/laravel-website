@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -26,5 +27,20 @@ class PagesController extends Controller
        
         return view('pages.contact',);
       }
+
+      public function save() {
+        
+        
+        
+                $contact = new Contact();
+        
+                $contact->email= request('email');
+                $contact->password = request('password');
+                $contact->comment = request('comment');
+               
+                $contact -> save();
+        
+                return redirect('/',);
+              }
        
 }

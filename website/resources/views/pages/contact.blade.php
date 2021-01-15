@@ -6,7 +6,7 @@
 <div class="container justify-content-center">
    
    <h2 class="card-title">Contact US</h2>
-<form action="/pages/home" method= "POST">
+<form action="/pages/post" method= "POST">
 @csrf
 <div class="form-group">
  <label for="email">Email address:</label>
